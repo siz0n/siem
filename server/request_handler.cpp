@@ -8,11 +8,7 @@
 
 using namespace std;
 
-// ------------------------------------------------------------
-// helpers
-// ------------------------------------------------------------
 
-// split "[{...},{...}]" -> vector "{...}"
 static bool splitJsonArrayObjects(const std::string& arrJson,
                                   std::vector<std::string>& out)
 {
@@ -74,9 +70,6 @@ static bool splitJsonArrayObjects(const std::string& arrJson,
     return true;
 }
 
-// ------------------------------------------------------------
-// main handler
-// ------------------------------------------------------------
 
 Response processRequest(const Request& req, MiniDBMS& db)
 {
@@ -88,9 +81,7 @@ Response processRequest(const Request& req, MiniDBMS& db)
 
     try
     {
-        // ====================================================
-        // INSERT / INSERT BATCH
-        // ====================================================
+     
         if (req.operation == "insert")
         {
             std::string data = trim(req.data_json);
@@ -101,7 +92,7 @@ Response processRequest(const Request& req, MiniDBMS& db)
                 return resp;
             }
 
-            // ---------- batch ----------
+
             if (data.front() == '[')
             {
                 std::vector<std::string> objects;
@@ -124,7 +115,7 @@ Response processRequest(const Request& req, MiniDBMS& db)
                 return resp;
             }
 
-            // ---------- single ----------
+        
             if (data.front() == '{')
             {
                 db.insertQuery(data);
@@ -140,9 +131,7 @@ Response processRequest(const Request& req, MiniDBMS& db)
             return resp;
         }
 
-        // ====================================================
-        // FIND
-        // ====================================================
+       
         if (req.operation == "find")
         {
             std::string query = trim(req.query_json);
@@ -161,9 +150,6 @@ Response processRequest(const Request& req, MiniDBMS& db)
             return resp;
         }
 
-        // ====================================================
-        // DELETE
-        // ====================================================
         if (req.operation == "delete")
         {
             std::string query = trim(req.query_json);
@@ -180,9 +166,6 @@ Response processRequest(const Request& req, MiniDBMS& db)
             return resp;
         }
 
-        // ====================================================
-        // UNKNOWN
-        // ====================================================
         resp.message = "Unknown operation: " + req.operation;
         return resp;
     }
