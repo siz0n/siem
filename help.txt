@@ -1,0 +1,8 @@
+./db_client --host 127.0.0.1 --port 8080 --database mydb
+./db_client --host 127.0.0.1 --port 5000 --database mydb \
+       --once "FIND {\"age\":{\"$gt\":20}}"
+INSERT {"name":"Alice","age":"25"} 
+
+ FIND {"age":{"$gt":20}}
+ DELETE {"name":"Alice"}
+

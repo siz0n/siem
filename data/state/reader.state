@@ -1,0 +1,12 @@
+bash_history.path=/root/.bash_history
+bash_history.inode=0
+bash_history.offset=0
+auth.log.path=/var/log/auth.log
+auth.log.inode=1058336
+auth.log.offset=4271
+syslog.path=/var/log/syslog
+syslog.inode=1053987
+syslog.offset=159182
+auditd.path=/var/log/audit/audit.log
+auditd.inode=1176268
+auditd.offset=5374822

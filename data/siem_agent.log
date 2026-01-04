@@ -1,0 +1,129 @@
+2025-12-26T19:02:11 [INFO] logger started
+2025-12-26T19:02:11 [INFO] [Agent] Config loaded: agent.conf
+2025-12-26T19:02:11 [INFO] [Agent] dataDir=./data
+2025-12-26T19:02:11 [INFO] [Agent] logPath=./data/siem_agent.log
+2025-12-26T19:02:11 [INFO] [Agent] Spool queue=./data/spool/queue.log inflight=./data/spool/inflight.log
+2025-12-26T19:02:11 [INFO] [Agent] State file: ./data/state/reader.state exists=yes
+2025-12-26T19:02:11 [INFO] [Agent] hostname=Kurbanov
+2025-12-26T19:02:11 [INFO] [Agent] paths: auditd=/var/log/audit/audit.log
+2025-12-26T19:02:11 [INFO] [Agent] paths: syslog=/var/log/syslog
+2025-12-26T19:02:11 [INFO] [Agent] paths: auth=/var/log/auth.log
+2025-12-26T19:02:11 [INFO] [Agent] paths: bash_history=/root/.bash_history
+2025-12-26T19:02:11 [INFO] [Agent] State exists: continue from saved offsets
+2025-12-26T19:02:11 [INFO] [Agent] server=127.0.0.1:5000
+2025-12-26T19:02:11 [INFO] [Agent] agent.id=agent-ubuntu-01 database=mydb
+2025-12-26T19:02:11 [INFO] [Agent] send.interval_sec=2 send.batch_size=2 ram_ring_capacity=1
+2025-12-26T19:03:54 [INFO] [Agent] connected
+2025-12-26T19:04:20 [WARN] [Agent] send failed -> enqueue to spool and reconnect later
+2025-12-26T19:06:24 [INFO] [Agent] stopping...
+2025-12-26T19:06:24 [INFO] logger stopped
+2025-12-26T22:55:51 [INFO] logger started
+2025-12-26T22:55:51 [INFO] [Agent] Config loaded: agent.conf
+2025-12-26T22:55:51 [INFO] [Agent] dataDir=./data
+2025-12-26T22:55:51 [INFO] [Agent] logPath=./data/siem_agent.log
+2025-12-26T22:55:51 [INFO] [Agent] Spool queue=./data/spool/queue.log inflight=./data/spool/inflight.log
+2025-12-26T22:55:51 [INFO] [Agent] State file: ./data/state/reader.state exists=yes
+2025-12-26T22:55:51 [INFO] [Agent] hostname=Kurbanov
+2025-12-26T22:55:51 [INFO] [Agent] paths: auditd=/var/log/audit/audit.log
+2025-12-26T22:55:51 [INFO] [Agent] paths: syslog=/var/log/syslog
+2025-12-26T22:55:51 [INFO] [Agent] paths: auth=/var/log/auth.log
+2025-12-26T22:55:51 [INFO] [Agent] paths: bash_history=/root/.bash_history
+2025-12-26T22:55:51 [INFO] [Agent] State exists: continue from saved offsets
+2025-12-26T22:55:51 [INFO] [Agent] server=127.0.0.1:5000
+2025-12-26T22:55:51 [INFO] [Agent] agent.id=agent-ubuntu-01 database=mydb
+2025-12-26T22:55:51 [INFO] [Agent] send.interval_sec=2 send.batch_size=2 ram_ring_capacity=1
+2025-12-26T22:57:01 [INFO] [Agent] connected
+2025-12-26T22:57:14 [INFO] [Agent] stopping...
+2025-12-26T22:57:14 [INFO] logger stopped
+2025-12-26T22:58:28 [INFO] logger started
+2025-12-26T22:58:28 [INFO] [Agent] Config loaded: agent.conf
+2025-12-26T22:58:28 [INFO] [Agent] dataDir=./data
+2025-12-26T22:58:28 [INFO] [Agent] logPath=./data/siem_agent.log
+2025-12-26T22:58:28 [INFO] [Agent] Spool queue=./data/spool/queue.log inflight=./data/spool/inflight.log
+2025-12-26T22:58:28 [INFO] [Agent] State file: ./data/state/reader.state exists=yes
+2025-12-26T22:58:28 [INFO] [Agent] hostname=Kurbanov
+2025-12-26T22:58:28 [INFO] [Agent] paths: auditd=/var/log/audit/audit.log
+2025-12-26T22:58:28 [INFO] [Agent] paths: syslog=/var/log/syslog
+2025-12-26T22:58:28 [INFO] [Agent] paths: auth=/var/log/auth.log
+2025-12-26T22:58:28 [INFO] [Agent] paths: bash_history=/root/.bash_history
+2025-12-26T22:58:28 [INFO] [Agent] State exists: continue from saved offsets
+2025-12-26T22:58:28 [INFO] [Agent] server=127.0.0.1:5000
+2025-12-26T22:58:28 [INFO] [Agent] agent.id=agent-ubuntu-01 database=mydb
+2025-12-26T22:58:28 [INFO] [Agent] send.interval_sec=2 send.batch_size=2 ram_ring_capacity=1
+2025-12-26T22:58:29 [INFO] [Agent] connected
+2025-12-26T22:59:06 [WARN] [Agent] send failed -> enqueue to spool and reconnect later
+2025-12-26T23:00:19 [INFO] [Agent] stopping...
+2025-12-26T23:00:19 [INFO] logger stopped
+2025-12-27T01:24:04 [INFO] logger started
+2025-12-27T01:24:04 [INFO] [Agent] Config loaded: agent.conf
+2025-12-27T01:24:04 [INFO] [Agent] dataDir=./data
+2025-12-27T01:24:04 [INFO] [Agent] logPath=./data/siem_agent.log
+2025-12-27T01:24:04 [INFO] [Agent] Spool queue=./data/spool/queue.log inflight=./data/spool/inflight.log
+2025-12-27T01:24:04 [INFO] [Agent] State file: ./data/state/reader.state exists=yes
+2025-12-27T01:24:04 [INFO] [Agent] hostname=Kurbanov
+2025-12-27T01:24:04 [INFO] [Agent] paths: auditd=/var/log/audit/audit.log
+2025-12-27T01:24:04 [INFO] [Agent] paths: syslog=/var/log/syslog
+2025-12-27T01:24:04 [INFO] [Agent] paths: auth=/var/log/auth.log
+2025-12-27T01:24:04 [INFO] [Agent] paths: bash_history=/root/.bash_history
+2025-12-27T01:24:04 [INFO] [Agent] State exists: continue from saved offsets
+2025-12-27T01:24:04 [INFO] [Agent] server=127.0.0.1:5000
+2025-12-27T01:24:04 [INFO] [Agent] agent.id=agent-ubuntu-01 database=mydb
+2025-12-27T01:24:04 [INFO] [Agent] send.interval_sec=1 send.batch_size=1 ram_ring_capacity=1
+2025-12-27T01:24:12 [INFO] [Agent] stopping...
+2025-12-27T01:24:12 [INFO] logger stopped
+2025-12-27T01:24:24 [INFO] logger started
+2025-12-27T01:24:24 [INFO] [Agent] Config loaded: agent.conf
+2025-12-27T01:24:24 [INFO] [Agent] dataDir=./data
+2025-12-27T01:24:24 [INFO] [Agent] logPath=./data/siem_agent.log
+2025-12-27T01:24:24 [INFO] [Agent] Spool queue=./data/spool/queue.log inflight=./data/spool/inflight.log
+2025-12-27T01:24:24 [INFO] [Agent] State file: ./data/state/reader.state exists=yes
+2025-12-27T01:24:24 [INFO] [Agent] hostname=Kurbanov
+2025-12-27T01:24:24 [INFO] [Agent] paths: auditd=/var/log/audit/audit.log
+2025-12-27T01:24:24 [INFO] [Agent] paths: syslog=/var/log/syslog
+2025-12-27T01:24:24 [INFO] [Agent] paths: auth=/var/log/auth.log
+2025-12-27T01:24:24 [INFO] [Agent] paths: bash_history=/root/.bash_history
+2025-12-27T01:24:24 [INFO] [Agent] State exists: continue from saved offsets
+2025-12-27T01:24:24 [INFO] [Agent] server=127.0.0.1:5000
+2025-12-27T01:24:24 [INFO] [Agent] agent.id=agent-ubuntu-01 database=mydb
+2025-12-27T01:24:24 [INFO] [Agent] send.interval_sec=1 send.batch_size=1 ram_ring_capacity=1
+2025-12-27T01:24:37 [INFO] [Agent] connected
+2025-12-27T01:24:44 [INFO] [Agent] stopping...
+2025-12-27T01:24:44 [INFO] logger stopped
+2025-12-27T01:40:40 [INFO] logger started
+2025-12-27T01:40:40 [INFO] [Agent] Config loaded: agent.conf
+2025-12-27T01:40:40 [INFO] [Agent] dataDir=./data
+2025-12-27T01:40:40 [INFO] [Agent] logPath=./data/siem_agent.log
+2025-12-27T01:40:40 [INFO] [Agent] Spool queue=./data/spool/queue.log inflight=./data/spool/inflight.log
+2025-12-27T01:40:40 [INFO] [Agent] State file: ./data/state/reader.state exists=yes
+2025-12-27T01:40:40 [INFO] [Agent] hostname=Kurbanov
+2025-12-27T01:40:40 [INFO] [Agent] paths: auditd=/var/log/audit/audit.log
+2025-12-27T01:40:40 [INFO] [Agent] paths: syslog=/var/log/syslog
+2025-12-27T01:40:40 [INFO] [Agent] paths: auth=/var/log/auth.log
+2025-12-27T01:40:40 [INFO] [Agent] paths: bash_history=/root/.bash_history
+2025-12-27T01:40:40 [INFO] [Agent] State exists: continue from saved offsets
+2025-12-27T01:40:40 [INFO] [Agent] server=127.0.0.1:5000
+2025-12-27T01:40:40 [INFO] [Agent] agent.id=agent-ubuntu-01 database=mydb
+2025-12-27T01:40:40 [INFO] [Agent] send.interval_sec=1 send.batch_size=1 ram_ring_capacity=1
+2025-12-27T01:40:55 [INFO] [Agent] connected
+2025-12-27T01:45:01 [WARN] [Agent] send failed -> enqueue to spool and reconnect later
+2025-12-27T01:45:02 [INFO] [Agent] connected
+2025-12-27T01:46:15 [WARN] [Agent] send failed -> enqueue to spool and reconnect later
+2025-12-27T01:46:15 [INFO] [Agent] stopping...
+2025-12-27T01:46:15 [INFO] logger stopped
+2026-01-04T14:38:57 [INFO] logger started
+2026-01-04T14:38:57 [INFO] [Agent] Config loaded: agent.conf
+2026-01-04T14:38:57 [INFO] [Agent] dataDir=./data
+2026-01-04T14:38:57 [INFO] [Agent] logPath=./data/siem_agent.log
+2026-01-04T14:38:57 [INFO] [Agent] Spool queue=./data/spool/queue.log inflight=./data/spool/inflight.log
+2026-01-04T14:38:57 [INFO] [Agent] State file: ./data/state/reader.state exists=yes
+2026-01-04T14:38:57 [INFO] [Agent] hostname=Kurbanov
+2026-01-04T14:38:57 [INFO] [Agent] paths: auditd=/var/log/audit/audit.log
+2026-01-04T14:38:57 [INFO] [Agent] paths: syslog=/var/log/syslog
+2026-01-04T14:38:57 [INFO] [Agent] paths: auth=/var/log/auth.log
+2026-01-04T14:38:57 [INFO] [Agent] paths: bash_history=/root/.bash_history
+2026-01-04T14:38:57 [INFO] [Agent] State exists: continue from saved offsets
+2026-01-04T14:38:57 [INFO] [Agent] server=127.0.0.1:5000
+2026-01-04T14:38:57 [INFO] [Agent] agent.id=agent-ubuntu-01 database=mydb
+2026-01-04T14:38:57 [INFO] [Agent] send.interval_sec=1 send.batch_size=1 ram_ring_capacity=1
+2026-01-04T14:53:32 [INFO] [Agent] stopping...
+2026-01-04T14:53:32 [INFO] logger stopped
